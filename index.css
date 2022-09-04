@@ -1,0 +1,50 @@
+body{
+    background-image: url("https://i.blogs.es/67ac5a/wallpaper-dinamicos-macos/840_560.jpg");
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hola1{
+    color: #eee000;
+
+}
+
+#hola2{
+    color: #ee0000;
+}
+
+.prrafo{
+    color: #9e5400;
+}
+
+.link{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: #eee000;
+}
+
+.triangulo{
+    margin-left: 50px;
+   border-left: 250px solid transparent;
+   border-right: 250px solid transparent;
+   border-bottom: #eee000 500px solid;
+    height: 0;
+    width: 0;
+
+}
+.strange{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 66% 61%, 46% 40%, 0% 70%, 0% 30%);
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+button:hover{
+    transition: 3s;
+    background-color: #ee0000;
+}
