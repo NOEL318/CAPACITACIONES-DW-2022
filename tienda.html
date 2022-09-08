@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="tienda.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="tienda.js"></script>
+
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Logo" width="100" height="auto" class="d-inline-block align-text-top">
+          </a>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light" type="submit">Search</button>
+
+          </form>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <a href="https://www.amazon.com/-/es/b/?_encoding=UTF8&node=16225015011&pf_rd_r=HGCWMCEW95GWHDG5921H&pf_rd_p=da2dacfa-c56b-4fc8-a142-5e4373526886&pd_rd_r=de3c888a-5600-4cf2-a6a3-135eb7ede0b8&pd_rd_w=7kX9W&pd_rd_wg=cETKi&ref_=pd_gw_unk"> <img src="https://m.media-amazon.com/images/I/61tX6L542kL._SX3000_.jpg" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+           <a href="https://www.amazon.com/-/es/b/?_encoding=UTF8&node=23508887011&pf_rd_r=HGCWMCEW95GWHDG5921H&pf_rd_p=876da605-347f-4dab-a76f-0b0bb703ca88&pd_rd_r=de3c888a-5600-4cf2-a6a3-135eb7ede0b8&pd_rd_w=UZ6Vt&pd_rd_wg=cETKi&ref_=pd_gw_unk"> <img src="https://m.media-amazon.com/images/I/610UHMnjeYL._SX3000_.jpg" class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<br><br><br>
+
+<div class="container">
+    <h1>Productos Amazon</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-center">
+
+                <img width="200px" height="auto" src="https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL480_QL65_.jpg" alt="...">
+
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <input type="number" name="Cantidad" id="cantidad">
+              <br><br>
+              <button type="button" onclick="funcion1()" class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-center">
+                <img width="200px" height="auto" src="https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL480_QL65_.jpg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" onclick="funcion2()" class="btn btn-dark">Comprar</button>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-center">
+
+                <img width="200px" height="auto" src="https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL480_QL65_.jpg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-center">
+
+                <img width="200px" height="auto" src="https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL480_QL65_.jpg" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="d-flex justify-content-center">
+
+                    <img width="200px" height="auto" src="https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL480_QL65_.jpg" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <div class="d-flex justify-content-center">
+
+                    <img width="200px" height="auto" src="https://m.media-amazon.com/images/I/81xV+D1OkGL._AC_UL480_QL65_.jpg" alt="...">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</body>
+</html>
